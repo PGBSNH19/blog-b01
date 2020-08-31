@@ -2,6 +2,7 @@
 
 Detta är bloggen för buddypar 1, Andreas Brochs, Hampus Kjellstrand och Kristoffer Ternstedt
 
+Dag 1: 
 Priser: 
 Azure runt 500:-/mån
 Vi förstod även på andra grupper att det finns alla möjliga lösningar från typ 300:- till tusentals kronor.

@@ -29,6 +29,7 @@ Vi har inte hunnit göra någon SWOT-analys ännu utan får göra det en annan d
 
 Dag 3 4/9 2020:
 (Hampus, Andreas)
+
 Vi har idag gjort SWOT-analysen. Laddar upp separat bild på den.
 
 Vår [blogg](index.md)

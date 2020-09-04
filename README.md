@@ -3,6 +3,7 @@
 Detta är bloggen för buddypar 1, Andreas Brochs, Hampus Kjellstrand och Kristoffer Ternstedt
 
 Dag 1 31/8 2020: 
+(Hampus, Andreas)
 
 Priser: 
 Azure runt 500:-/mån
@@ -13,7 +14,9 @@ Såg det mer som ett sätt att fräscha upp sina programmeringschops tillbaka ef
 Kändes som att man behövde påminna sig själv om en del saker igen, inte som man glömt direkt men som bara inte ligger på fingertopparna längre som det gjorde i våras.
 
 
+
 Dag 2 2/9 2020:
+(Hampus, Andreas)
 
 Vi har idag prövat på att starta upp virtuella maskiner både lokalt och via Azure med varierande framgång.
 Lokalt fungerade det för Andreas utan problem och via Azure så fungerade det för Hampus utan problem, vice versa stöttes några problem på.

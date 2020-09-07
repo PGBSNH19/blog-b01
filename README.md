@@ -30,9 +30,7 @@ Vi har inte hunnit göra någon SWOT-analys ännu utan får göra det en annan d
 Dag 3 4/9 2020:
 (Hampus, Andreas)
 
-Vi har idag gjort SWOT-analysen. Laddar upp separat bild på den. (Update, bifogade bild här)
-
-![image-20200907133729293](C:\Users\Andreas\AppData\Roaming\Typora\typora-user-images\image-20200907133729293.png)
+Vi har idag gjort SWOT-analysen. Laddar upp separat bild på den. 
 
 
 
@@ -46,7 +44,7 @@ Status ca kl1400: Andreas hade lättare att installera Docker + alla uppdatering
 Vi följde en guide för att skapa en Dockerfile men den var inte helt enkel att följa. Bara för att få det att fungera (och höja moralen) skapade vi en Dockerfile i VisualStudio genom att högerklicka på Solution och add-Dockerfile. 
 
 En Dockerfile fungerar i stort såhär.
-![image-20200907134729458](C:\Users\Andreas\AppData\Roaming\Typora\typora-user-images\image-20200907134729458.png)
+(skulle lägga bild här, men funkade inte)
 
 FROM = En "adress" där man hämtar en Image där appen ska köras. Vilket ramverk vi ska röra oss inom.
 

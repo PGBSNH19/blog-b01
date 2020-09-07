@@ -44,7 +44,7 @@ Status ca kl1400: Andreas hade lättare att installera Docker + alla uppdatering
 Vi följde en guide för att skapa en Dockerfile men den var inte helt enkel att följa. Bara för att få det att fungera (och höja moralen) skapade vi en Dockerfile i VisualStudio genom att högerklicka på Solution och add-Dockerfile. 
 
 En Dockerfile fungerar i stort såhär.
-(skulle lägga bild här, men funkade inte)
+(skulle lägga bild här, men funkade inte)![](C:\Users\Andreas\Desktop\NET Utvecklare\Molntjänster\Lektion 3\exempel dockerdocument.jpg)
 
 FROM = En "adress" där man hämtar en Image där appen ska köras. Vilket ramverk vi ska röra oss inom.
 

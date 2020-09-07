@@ -55,4 +55,10 @@ COPY = Vilka filer som ska kopieras in i den slutliga imagen.
 
 ENTRYPOINT = När det är dags att köra kommer dessa kommandon köras. I detta fall Kör SimpleWebHalloWorld.dll. Det blir själva starten eller "ingångspunkten" varifrån applikationen kommer börja köras.
 
+För att köra applicationen i en container behöver man först bygga själva kontainern genom att köra kommandot: "docker build -t [namnet på bilden]".
+Själva docker-imagen kommer då att byggas utifrån vad som är specificerat i "Docker"-filen i projektet. När filen är färdigbyggd så behöver man köra den. Detta gör man genom att skriva: "docker run -d -p 8080:80 --name [namnet på containern] [namnet på bilden].
+Kommandot "docker run" både skapar och kör kontainern. Om man bara vill köra en kontainer kan man starta upp den på nytt i Docker Desktop eller skriva: "docker container start [OPTIONS (valfritt)] CONTAINER [CONTAINER...]" i exempelvis powershell.
+
+Nu är din container igång och om du öppnar valfri webläsare och skriver in den port du kör på så kan du se applikationen köras.
+
 Vår [blogg](index.md)

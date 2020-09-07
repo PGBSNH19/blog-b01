@@ -42,17 +42,17 @@ Det krävdes även att Windows hade sin senaste uppdatering.
 
 Status ca kl1400: Andreas hade lättare att installera Docker + alla uppdateringar och fick SimpleWebHalloWorld att fungera i en container strax efter lunch. Hampus blev färdig strax efter när hans uppdateringar kört färdigt. Windowsuppdateringen var en stor en och behövde en lite mer än halva förmiddagen på sig för att bli klar.
 
-Vi följde en guide för att skapa en Dockerfile men den var inte helt enkel att följa. Bara för att få det att fungera (och höja moralen) skapade vi en Dockerfile i VisualStudio genom att högerklicka på Solution och add-Dockerfile. 
+Vi följde en guide för att skapa en Dockerfile men den var inte helt enkel att följa. Bara för att få det att fungera (och höja moralen) skapade vi en Dockerfile i VisualStudio genom att högerklicka på Solution och add-Dockerfile. Det fungerade väl och gav oss också chansen att se hur en sådan fil ska se ut.
 
 En Dockerfile fungerar i stort såhär.
 (skulle lägga bild här, men funkade inte)
 
 FROM = En "adress" där man hämtar en Image där appen ska köras. Vilket ramverk vi ska röra oss inom.
 
-WORKDIR = Var i mappstrukturen ska imagen läggas
+WORKDIR = Var i mappstrukturen ska imagen läggas.
 
-COPY = 
+COPY = Vilka filer som ska kopieras in i den slutliga imagen.
 
-ENTRYPOINT = När det är dags att köra kommer dessa kommandon köras. I detta fall Kör SimpleWebHalloWorld.dll
+ENTRYPOINT = När det är dags att köra kommer dessa kommandon köras. I detta fall Kör SimpleWebHalloWorld.dll. Det blir själva starten eller "ingångspunkten" varifrån applikationen kommer börja köras.
 
 Vår [blogg](index.md)

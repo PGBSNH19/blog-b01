@@ -61,4 +61,22 @@ Kommandot "docker run" både skapar och kör kontainern. Om man bara vill köra 
 
 Nu är din container igång och om du öppnar valfri webläsare och skriver in den port du kör på så kan du se applikationen köras.
 
+Om man vill kan man också köra sin container i en compose-fil! Tjusningen med detta är att man kan köra flera containrar i en och samma compose-fil.
+För att göra detta behöver man lägga till en till fil som man döper till "docker-compose.yml" (det är alltså en yaml-fil). 
+I den filen skrivs följande:
+
+version: '3'              
+services:                 
+  web:                    --Denna del bygger en compose-fil från docker-filerna i den aktuella mappen.
+    build: .              --Beskriver vad som ska tas med.
+    ports:                --Vilken port compse-filen ska lyssna efter.
+      - "8080:80"
+  redis:                  --Beskriver den "REmote DIctionary Server" man vill använda.
+    image: "redis:alpine"
+    
+Glöm inte att specificera en port som du vet funkar. Första gången Hampus testade funkade det inte då port 5000 var angiven (som antagligen redan var upptagen av något annat).
+
+När detta är klart kör du valfri kommandotolk stående i prohjektmappen och skriver "docker-compose up". Detta bygger din compose-fil och kör den sedan.
+För att se att allt funkar öppna din webbläsare och skriv in "localhost:[din port]". Man kan också kika i Docker Dashboard för att se om allting körs.
+
 Vår [blogg](index.md)

@@ -37,9 +37,10 @@ Vi har idag gjort SWOT-analysen. Laddar upp separat bild på den.
 Dag 4 7/9 2020:
 (Hampus, Andreas)
 
-Vi har installerat Docker (+Docker Desktop) på våra datorer. Det krävde lite uppdateringar och Linux-tillägg (minns vi namnet på den?) för att få att fungera. 
+Vi har installerat Docker (+Docker Desktop) på våra datorer. Det krävde lite uppdateringar och Linux-tillägg (WSL2 Backend) för att få att fungera.
+Det krävdes även att Windows hade sin senaste uppdatering.
 
-Status ca kl1400: Andreas hade lättare att installera Docker + alla uppdateringar och fick SimpleWebHalloWorld att fungera i en container strax efter lunch. Hampus blev färdig strax efter när hans uppdateringar kört färdigt.
+Status ca kl1400: Andreas hade lättare att installera Docker + alla uppdateringar och fick SimpleWebHalloWorld att fungera i en container strax efter lunch. Hampus blev färdig strax efter när hans uppdateringar kört färdigt. Windowsuppdateringen var en stor en och behövde en lite mer än halva förmiddagen på sig för att bli klar.
 
 Vi följde en guide för att skapa en Dockerfile men den var inte helt enkel att följa. Bara för att få det att fungera (och höja moralen) skapade vi en Dockerfile i VisualStudio genom att högerklicka på Solution och add-Dockerfile. 
 
